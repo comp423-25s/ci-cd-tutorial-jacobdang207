@@ -1,6 +1,6 @@
 # Dockerfile for Production Build
 # Use the official Python 3.13 image as the base image.
-FROM python:latest
+FROM python:3.13
 
 # Set the working directory in the container.
 WORKDIR /app
